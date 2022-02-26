@@ -3,26 +3,19 @@
 </p>
 
 
-# Modern C++ Template
-
-A quick C++ template for modern CMake projects, aimed to be an easy to use
-starting point.
-
-This is my personal take on such a type of template, thus I might not use the 
-best practices or you might disagree with how I do things. Any and all feedback
-is greatly appreciated!
-
-## Features
--  Modern **CMake** configuration and project, which, to the best of my knowledge, uses the best practices and the [Modern CMake practices](https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/)
-- Suited for single header libraries and projects of any scale
-- Options to build as a header-only library, static library or shared library.
-- **Package manager support**, via [CPM.cmake](https://github.com/TheLartians/CPM.cmake), to reproducible dependency management 
-- **Unit testing** support through [doctest](https://github.com/onqtam/doctest)
-- TODO: Installable target with automatic versioning information and header generation via [PackageProject.cmake](https://github.com/TheLartians/PackageProject.cmake)
-- TODO: **CI workflows for Windows, Linux and MacOS** using [GitHub Actions](https://help.github.com/en/actions/)
-- TODO: **Code coverage**, enabled by using the `ENABLE_CODE_COVERAGE` option, through *Codecov* CI integration [codecov](https://codecov.io)
-- Code formatting enforced by [clang-format](https://clang.llvm.org/docs/ClangFormat.html) and [cmake-format](https://github.com/cheshirekow/cmake_format) via [Format.cmake](https://github.com/TheLartians/Format.cmake)
-- TODO: **Static analyzers** integration
-- TODO: **Ccache** integration, for speeding up rebuild times
+# A modern ORM
+A template metaprogramming based Object Relationship Manager (ORM).
 
 
+# Feature
+
+**No feature implemented yet**
+
+## Key features of DBO will provide :
+  * Boost.Serialization like API
+  * no code generators / preprocessors
+  * support for one-to-many and many-to-many relations
+  * automatic code generation
+  * lazy loading
+  * smart pointers
+  * no need to inherit from a single base class
