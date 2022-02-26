@@ -10,10 +10,10 @@ cmake_policy(SET CMP0091 NEW)
 
 # Define the Project Name and Description
 project(
-    modern_cpp_project
-    VERSION 1.0.0
+    dbo
+    VERSION 0.0.1
     LANGUAGES CXX
-    DESCRIPTION "moderncpp-project is a starter project for Modern C++"
+    DESCRIPTION "A modern C++ ORM"
 )
 # ######################################################################################################################
 # Include guards: Prevent building in the source directory

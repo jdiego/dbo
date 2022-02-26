@@ -27,7 +27,7 @@ export PRINT_HELP_PYSCRIPT
 override t := $(shell X="${t}"; echo $${X^^})
 
 
-PROJECT_NAME := "modern_cpp_project"
+PROJECT_NAME := "dbo"
 
 BROWSER := python -c "$$BROWSER_PYSCRIPT"
 
